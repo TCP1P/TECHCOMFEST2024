@@ -1,0 +1,3 @@
+# Serialization
+I just made this program that can create a Serial Number from a string!\
+I hope it's safe enough...
