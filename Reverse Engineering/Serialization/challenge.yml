@@ -34,6 +34,7 @@ tags:
 # Accepts strings
 files:
     - main
+    - output.txt
 
 # The state of the challenge.
 # This is visible by default. It takes two values: hidden, visible.
