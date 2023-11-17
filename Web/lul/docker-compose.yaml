@@ -21,7 +21,7 @@ services:
     build: bot
     environment:
       APPNAME: Admin
-      APPURL: http://app/
+      APPURL: http://app:3000/
       APPURLREGEX: ^http://app:3000/.*$
       APPFLAG: TCF2024{xss_on_the_path_is_really_out_of_this_world!}
       APPLIMIT: 2
