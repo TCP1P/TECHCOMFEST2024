@@ -55,10 +55,8 @@ for i in range(len(matrix)):
     for j in range(len(matrix)):
         new_matrix[sbox[i][j][0]][sbox[i][j][1]] = matrix[i][j]//8
 
-restored_matrix = decode_spiral(new_matrix)
-
 flag = ''
-for i in range(len(restored_matrix)):
-    flag += chr(restored_matrix[i])
+for c in decode_spiral(new_matrix):
+    flag += chr(c)
 
 print(flag)
