@@ -1,0 +1,52 @@
+# This file represents the base specification of your challenge. It is used by
+# other tools to install and deploy your challenge.
+
+# Required sections
+name: "kuli-ah forensik"
+author: "fire"
+category: "Forensics"
+description: |
+    **Author**: `fire`
+
+    I just created secret message in image file but i want to make it secure 
+    so i transform it to audio file. But i think it's not secure enough so i 
+    archive it with password. I encrypt it with very strong password. I'am 
+    sure no one can crack it because my password is random 15 digit number in 
+    base 3. It's very very secure right? ... right??. Then i wrap my file 
+    within an image so no one can realize.
+
+    flag = TCF2024{`<my secret message>`}
+    
+value: 1
+type: dynamic
+extra:
+    initial: 500
+    decay: 20
+    minimum: 100
+
+# Flags specify answers that your challenge use. You should generally provide
+# at least one.
+# Can be removed if unused
+# Accepts strings or dictionaries
+flags:
+    - TCF2024{w0w_congrats_you_win}
+
+# Tags are used to classify your challenge with topics. You should provide at
+# least one.
+# Can be removed if unused
+# Accepts strings
+tags:
+    - baby
+
+# Provide paths to files from the same directory that this file is in
+# Accepts strings
+files:
+    - peserta/kobokanaeruluvluv.jpg
+
+# The state of the challenge.
+# This is visible by default. It takes two values: hidden, visible.
+state: visible
+
+# Specifies what version of the challenge specification was used.
+# Subject to change until ctfcli v1.0.0
+version: "0.1"
