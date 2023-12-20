@@ -2,7 +2,7 @@
 
 ## description
 
-I just create DIY pdf. Well i just made flag checker inside pdf file. Cool right? 😎 
+I just create handmade pdf. Well i also made flag checker inside pdf file. Cool right? 😎 
 
 ## how to solve
 
