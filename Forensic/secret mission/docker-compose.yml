@@ -7,8 +7,8 @@ services:
       dockerfile: Dockerfile
     ports:
       - "13337:3000"
-  mudah:
-    container_name: mudah
+  pwnm3:
+    container_name: pwnm3
     build:
       context: ./src
       dockerfile: Dockerfile
