@@ -2,11 +2,13 @@
 # other tools to install and deploy your challenge.
 
 # Required sections
-name: "techcompfest hidden challenge"
-author: "fire & hyffs"
+name: "secret mission"
+author: "fire & rui"
 category: "Forensics"
 description: |
-    **Author**: `fire & hyffs`
+    **Author**: `fire & rui`
+
+    ![secret mission](https://i.pinimg.com/564x/a0/f3/7b/a0f37b8d85ce0e29284c4b8e211b8c4b.jpg)
 
     I found this hidden challenge in techcompfest website. But this challenge 
     is not listed in the challenge list. And there is an limited time to download 
