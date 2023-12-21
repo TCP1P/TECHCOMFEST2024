@@ -1,0 +1,17 @@
+version: '3'
+services:
+  hidden-web:
+    container_name: hidden-web
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "13337:3000"
+  mudah:
+    container_name: mudah
+    build:
+      context: ./src
+      dockerfile: Dockerfile
+    ports:
+      - "20678:20678"
+    privileged: true
