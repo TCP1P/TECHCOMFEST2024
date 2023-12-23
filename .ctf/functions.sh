@@ -8,7 +8,6 @@ process_directories() {
         fi
 
         echo "Processing directory: $dir"
-
         (
             cd "$dir"
             {
