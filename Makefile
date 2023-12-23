@@ -8,5 +8,7 @@ deploy:
 	bash ./.ctf/deploy.sh
 stop:
 	bash ./.ctf/stop.sh
+hidden-all:
+	bash ./.ctf/hidden.sh
 install-dependency:
 	bash ./.dependency/blockchain/images/build.sh
