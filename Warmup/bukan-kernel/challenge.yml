@@ -21,6 +21,8 @@ extra:
     decay: 100
     minimum: 50
 
+connection_info: nc 103.152.242.78 14233
+
 # Settings used for Dockerfile deployment
 # If not used, remove or set to null
 # If you have a Dockerfile set to .
