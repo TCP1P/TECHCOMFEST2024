@@ -1,0 +1,8 @@
+version: "3"
+services:
+  bukan-kernel:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "14233:1321"
