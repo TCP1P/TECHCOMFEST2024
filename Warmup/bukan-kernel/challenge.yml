@@ -8,7 +8,7 @@ category: "pwn"
 description: |
     **Author**: `fire`
 
-    Bukan soal kernel :)
+    Bukan soal kernel karena jalan di python2 :)
 value: 100
 type: dynamic
 
