@@ -16,7 +16,7 @@ extra:
     decay: 20
     minimum: 100
 
-connection_info: http://localhost:16385
+connection_info: http://ctf.ukmpcc.org:16385
 
 # Flags specify answers that your challenge use. You should generally provide
 # at least one.
