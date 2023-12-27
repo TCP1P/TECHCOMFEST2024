@@ -1,0 +1,7 @@
+version: '3'
+services:
+  pwnable:
+    build: .
+    ports:
+      - "23337:23337"
+    restart: always

@@ -1,0 +1,53 @@
+# This file represents the base specification of your challenge. It is used by
+# other tools to install and deploy your challenge.
+
+# Required sections
+name: "Auth as a Service"
+author: "rui"
+category: "Cryptography"
+description: |
+    **Author**: `rui`
+
+    A simple auth service 
+
+    - Auth as a Service : 1st stage [HERE]
+    - Auth as a User    : 2nd stage
+    - Auth as a Kernel  : 3rd stage
+
+    Please read the README.md in attachment for more details. 
+
+value: 1
+type: dynamic
+extra:
+    initial: 500
+    decay: 20
+    minimum: 100
+
+connection_info: nc {hostname} 13337
+
+# Flags specify answers that your challenge use. You should generally provide
+# at least one.
+# Can be removed if unused
+# Accepts strings or dictionaries
+flags:
+    - TCF2024{well_is_admin=true_moment_actually}
+
+# Tags are used to classify your challenge with topics. You should provide at
+# least one.
+# Can be removed if unused
+# Accepts strings
+tags:
+    - fullchain
+
+# Provide paths to files from the same directory that this file is in
+# Accepts strings
+files:
+    - auth.tar.gz
+
+# The state of the challenge.
+# This is visible by default. It takes two values: hidden, visible.
+state: visible
+
+# Specifies what version of the challenge specification was used.
+# Subject to change until ctfcli v1.0.0
+version: "0.1"
