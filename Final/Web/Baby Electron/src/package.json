@@ -1,0 +1,13 @@
+{
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^26.1.0",
+    "electron-builder": "^24.6.3"
+  },
+  "name": "baby-electron",
+  "version": "24.6.4"
+}
