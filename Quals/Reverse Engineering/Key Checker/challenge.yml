@@ -2,13 +2,13 @@
 # other tools to install and deploy your challenge.
 
 # Required sections
-name: "Restored"
+name: "Key Checker"
 author: "aimardcr"
 category: "Reverse Engineering"
 description: |
     **Author**: `aimardcr`
 
-    The heaven for beginners.
+    Flag Checkers are too common, what about Key Checker?
 value: 1
 type: dynamic
 extra:
@@ -28,8 +28,6 @@ flags:
 # Can be removed if unused
 # Accepts strings
 tags:
-    - level 1
-    - baby
 
 # Provide paths to files from the same directory that this file is in
 # Accepts strings

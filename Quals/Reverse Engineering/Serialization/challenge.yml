@@ -1,5 +1,5 @@
 # This file represents the base specification of your challenge. It is used by
-# other tools to install and deploy your challenge.
+# other tools to install  and deploy your challenge.
 
 # Required sections
 name: "Serialization"
@@ -8,7 +8,7 @@ category: "Reverse Engineering"
 description: |
     **Author**: `aimardcr`
 
-    The place where your full potential will be tested.
+    Homemade serial number generator! I made the program generates serial number very long so that it's safe! or is it safe?
 value: 1
 type: dynamic
 extra:
@@ -28,7 +28,6 @@ flags:
 # Can be removed if unused
 # Accepts strings
 tags:
-    - level 3
 
 # Provide paths to files from the same directory that this file is in
 # Accepts strings
