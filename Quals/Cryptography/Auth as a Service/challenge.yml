@@ -8,13 +8,11 @@ category: "Cryptography"
 description: |
     **Author**: `rui`
 
-    A simple auth service 
-
     - Auth as a Service : 1st stage [HERE]
     - Auth as a User    : 2nd stage
     - Auth as a Kernel  : 3rd stage
 
-    Please read the README.md in attachment for more details. 
+    Please see README.md in attachment for more details. 
 
 value: 1
 type: dynamic
