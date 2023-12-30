@@ -51,7 +51,7 @@ connection_info: http://ctf.ukmpcc.org:39046
 # healthcheck: writeup/exploit.sh
 
 # Can be removed if unused
-attempts: 5
+# attempts: 5
 
 # Flags specify answers that your challenge use. You should generally provide at least one.
 # Can be removed if unused
