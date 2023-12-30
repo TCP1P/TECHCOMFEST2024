@@ -1,7 +1,7 @@
 import httpx
 from subprocess import check_output
 
-URL = "http://localhost:80"
+URL = "http://ctf.ukmpcc.org:10337/"
 
 class BaseAPI:
     def __init__(self, url=URL) -> None:
