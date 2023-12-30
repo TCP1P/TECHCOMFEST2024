@@ -1,7 +1,7 @@
-FROM oven/bun:latest
+FROM node:latest
 
 WORKDIR /app
-COPY ./src .
-RUN bun install
+COPY ./src /app
+RUN npm i
 
-CMD [ "bun", "run", "app.js" ]
+CMD [ "node", "app.js" ]

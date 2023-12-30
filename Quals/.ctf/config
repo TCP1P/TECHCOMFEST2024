@@ -3,4 +3,22 @@ url = http://103.152.242.78/
 access_token = ctfd_aa1c7260971b04a8aff57aa68084968e379afba657744eaed40295e94eea6038
 
 [challenges]
+./Cryptography/Auth as a Service = ./Cryptography/Auth as a Service
+./Cryptography/solvable = ./Cryptography/solvable
+./Cryptography/crackable = ./Cryptography/crackable
+./PWN/Auth as a User = ./PWN/Auth as a User
+./PWN/Auth as a Kernel = ./PWN/Auth as a Kernel
+./PWN/pwnable = ./PWN/pwnable
+./Web/yo-nda-tau = ./Web/yo-nda-tau
+./Web/pecel = ./Web/pecel
+./Web/kuta = ./Web/kuta
+./Web/lul = ./Web/lul
+./Reverse Engineering/Serialization = ./Reverse Engineering/Serialization
+./Reverse Engineering/Hidden in the Abyss = ./Reverse Engineering/Hidden in the Abyss
+./Reverse Engineering/Key Checker = ./Reverse Engineering/Key Checker
+./Forensic/secret mission = ./Forensic/secret mission
+./Forensic/pemanasan = ./Forensic/pemanasan
+./Forensic/kuli-ah forensik = ./Forensic/kuli-ah forensik
+./Blockchain/Tabungan = ./Blockchain/Tabungan
+./Web/pressword = ./Web/pressword
 
