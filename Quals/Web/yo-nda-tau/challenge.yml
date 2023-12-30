@@ -30,7 +30,7 @@ flags:
 # Can be removed if unused
 # Accepts strings
 tags:
-    - BUN
+    - node
     - Javascript
 
 # Provide paths to files from the same directory that this file is in

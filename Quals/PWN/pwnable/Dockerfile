@@ -4,7 +4,7 @@ RUN apt update && apt install socat -yq
 
 WORKDIR /chall
 COPY pwnable /chall/pwnable
-RUN echo "TCF2024{dah_gede_masa_cuma_overwrite_variable_aja_pake_pwntools}" > /chall/flag.txt
+RUN echo "TCF2024{pagi_pagi_begini_main_ctf?_hoaam_tidur_pun_sodap_ni}" > /chall/flag.txt
 
 RUN groupadd -r ctf && useradd -r -g ctf ctf
 USER ctf
