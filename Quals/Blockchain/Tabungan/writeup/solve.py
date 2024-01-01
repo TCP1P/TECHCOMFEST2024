@@ -13,9 +13,9 @@ https://github.com/foundry-rs/foundry
 Referensi: https://hackernoon.com/hack-solidity-reentrancy-attack
 """
 
-RPC_URL = "http://localhost:11661/547844ed-e284-4b69-ba1b-d1c6e65e02cf"
-PRIVKEY = "0x44888a809841eb10d527fa0af3970367a80269ea35462638fe0cd9809576d992"
-SETUP_CONTRACT_ADDR = "0xeA108243E63b64fF6dA96DE5071F4b9DF4f85024"
+RPC_URL = "http://ctf.ukmpcc.org:11661/2143b6e1-a723-4a08-9e7c-d1436695a668"
+PRIVKEY = "0x82f87d645d0dcd306e271aa533efb179c8a4e8350ad281eef9adf2c2b367d037"
+SETUP_CONTRACT_ADDR = "0xA655dDeD52aE264c8c9D9387B96Ed19405640ED2"
 
 class Account:
     def __init__(self) -> None:

