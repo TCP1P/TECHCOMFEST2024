@@ -1,0 +1,9 @@
+version: '3'
+services:
+  auth_again:
+    build: .
+    environment:
+      - FLAG=TCF2024{In_conclusion_"dont_roll_your_own_crypto"_-_merricx}
+    ports:
+      - "21337:21337"
+    restart: always
