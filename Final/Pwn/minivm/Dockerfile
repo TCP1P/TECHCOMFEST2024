@@ -28,7 +28,7 @@ RUN echo 'service ctf\n\
 }' > /etc/xinetd.d/ctf
 
 COPY run.py /home/ctf/run.py
-RUN echo 'TCF2024{gratz_you_pwned_my_0day_pwn_chall_anyway_thx_to_bang_chovid99_for_helping_me_with_his_blog}' > /home/ctf/flag.txt
+RUN echo 'TCF2024{gratz_you_pwned_my_first_0day_pwn_chall}' > /home/ctf/flag.txt
 
 RUN chmod 400 /etc/xinetd.d/ctf
 RUN chmod 550 /home/ctf/run.py /etc/init.sh

@@ -4,7 +4,7 @@ import subprocess
 import tempfile
 import signal
 
-TIMEOUT = 30
+TIMEOUT = 300
 signal.alarm(TIMEOUT)
 
 print("[ Input your lua code here (end with --END) ]", flush=True)

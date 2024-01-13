@@ -10,11 +10,7 @@ description: |
 
     Author malas buat chall pwn, yaudah pake punya orang aja https://github.com/FastVM/minivm
     
-    Note:
-    1. OS docker pake ubuntu:jammy (22.04)
-    2. Server buildnya pake opsi "For Speed", saran buat debug pake opsi yang "Debug" dlu
-    3. Contoh code vmnya bisa diliat di https://github.com/FastVM/minivm/tree/main/test
-    4. 0day? gatau bg sy ngarang aj
+    Note: OS docker pake ubuntu:jammy (22.04)
 
 value: 1
 type: dynamic
@@ -23,21 +19,21 @@ extra:
     decay: 8
     minimum: 100
 
-connection_info: nc {hostname} 313337
+connection_info: nc {hostname} 31337
 
 # Flags specify answers that your challenge use. You should generally provide
 # at least one.
 # Can be removed if unused
 # Accepts strings or dictionaries
 flags:
-    - TCF2024{gratz_you_pwned_my_0day_pwn_chall_anyway_thx_to_bang_chovid99_for_helping_me_with_his_blog}
+    - TCF2024{gratz_you_pwned_my_first_0day_pwn_chall}
     
 # Tags are used to classify your challenge with topics. You should provide at
 # least one.
 # Can be removed if unused
 # Accepts strings
 tags:
-    - 0day, vmescape
+    - 0day
 
 # The state of the challenge.
 # This is visible by default. It takes two values: hidden, visible.
