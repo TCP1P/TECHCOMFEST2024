@@ -1,0 +1,17 @@
+version: "3"
+services:
+  foll-web:
+    container_name: foll-web
+    image: python:alpine3.19
+    ports:
+      - "3453:3453"
+    volumes:
+      - ./src:/app
+    working_dir: /app
+    command: python3 -m http.server 3453
+  quest:
+    container_name: quest
+    build:
+      context: quest
+    ports:
+      - "6980:6980"
