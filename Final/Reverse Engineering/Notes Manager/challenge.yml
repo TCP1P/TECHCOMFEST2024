@@ -2,9 +2,9 @@
 # other tools to install and deploy your challenge.
 
 # Required sections
-name: "Serialization"
+name: "Notes Manager"
 author: "aimardcr"
-category: "Notes Manager"
+category: "Reverse Engineering"
 description: |
     **Author**: `aimardcr`
 
@@ -28,26 +28,27 @@ description: |
     ------
 
     You are expected to have Android Studio installed in your environment in order to run the pre-configured Android image.
-    If you haven't downloaded the image, download it from [here]().
+    If you haven't downloaded the image, download it from [here](https://drive.google.com/drive/folders/1wQaC-dC0pdpUs00LtktkCVocZOqKYCXi?usp=sharing).
 
     Installation:
     - Windows:
     1. Extract the contents of Notes_Manager.zip to `C:\Users\<USER>\.android\avd`
     2. Run the android image using built-in emulator from Android Studio
-    - Linux:
+    - Linux and MacOS:
     1. Extract the contents of Notes_Manager.zip to `~/.android/avd`
     2. Run the android image using built-in emulator from Android Studio
 
-    The file structure should looks like:
+    The structure should looks like this:
     ```
-    - <HOME_DIRECTORY>
-    - - .android
-    - - - avd
-    - - - - Notes_Manager.avd <directory>
-    - - - - Notes_Manager.ini
+    <HOME_DIRECTORY>
+    ├── .android
+    │   └── avd
+    │       ├── Notes_Manager.avd
+    │       └── Notes_Manager.ini
     ```
-
     Device Password: `fuu-kun`
+
+    Once you've gathered all the answers, get your flag here: `nc 178.128.113.198 31337`
 value: 1
 type: dynamic
 extra:
@@ -67,7 +68,6 @@ flags:
 # Can be removed if unused
 # Accepts strings
 tags:
-    - Reverse Engineering
     - Mobile Exploitation
     - Cryptography
     - Web Exploitation
@@ -75,7 +75,7 @@ tags:
 # Provide paths to files from the same directory that this file is in
 # Accepts strings
 files:
-    - app-debug.apk
+    - "Notes Manager.apk"
 
 # The state of the challenge.
 # This is visible by default. It takes two values: hidden, visible.
