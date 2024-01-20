@@ -14,4 +14,4 @@ services:
       dockerfile: Dockerfile
     ports:
       - "20678:20678"
-    privileged: true
+    restart: always

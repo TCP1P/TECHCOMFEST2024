@@ -28,7 +28,7 @@ RUN echo 'service ctf\n\
 }' > /etc/xinetd.d/ctf
 
 COPY run.py /home/ctf/run.py
-RUN echo 'TCF2024{gratz_you_pwned_my_first_0day_pwn_chall}' > /home/ctf/flag.txt
+RUN echo 'TCF2024{bang_maap_ya_probsetnya_lupa_kalo_flagnya_di_dockerfile}' > /home/ctf/flag.txt
 
 RUN chmod 400 /etc/xinetd.d/ctf
 RUN chmod 550 /home/ctf/run.py /etc/init.sh

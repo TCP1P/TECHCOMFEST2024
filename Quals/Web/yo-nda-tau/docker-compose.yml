@@ -5,6 +5,8 @@ services:
     build: .
     networks:
       - no_internet
+    restart: always
+    read_only: true
   proxy:
     image: nginx:latest
     ports:
