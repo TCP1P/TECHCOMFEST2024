@@ -1,0 +1,19 @@
+name: Hidden in the Abyss
+author: aimardcr
+description: '**Author**: `aimardcr`
+
+
+  Come and find out what''s hidden!
+
+
+  ---
+
+  Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Quals/Reverse%20Engineering/Hidden%20in%20the%20Abyss).'
+type: StaticAttachment
+category: Reverse
+minScoreRate: 0.2
+difficulty: 5
+disableBloodBonus: false
+flags:
+- TCF2024{N0t_S0_H1dd3n_Aft3r_4ll}
+provide: dist

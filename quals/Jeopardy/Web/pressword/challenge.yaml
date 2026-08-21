@@ -1,0 +1,19 @@
+name: pressword
+author: Dimas
+description: '**Author**: `Dimas`
+
+
+  Wordpress baru saja melakukan patch terbaru, tapi sayangnya website saya nda bisa di update :( (sad hackerika noise...)
+
+
+  ---
+
+  Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Quals/Web/pressword).'
+type: StaticAttachment
+category: Web
+minScoreRate: 0.2
+difficulty: 5
+disableBloodBonus: false
+flags:
+- TCF2024{wordpress_unserialize_to_rce_on_version_6.4.0+_wink...}
+provide: dist

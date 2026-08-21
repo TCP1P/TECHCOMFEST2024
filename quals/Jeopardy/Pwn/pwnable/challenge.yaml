@@ -1,0 +1,19 @@
+name: pwnable
+author: rui
+description: '**Author**: `rui`
+
+
+  rust is pwnable? not sure
+
+
+  ---
+
+  Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Quals/PWN/pwnable).'
+type: StaticAttachment
+category: Pwn
+minScoreRate: 0.2
+difficulty: 5
+disableBloodBonus: false
+flags:
+- TCF2024{dah_gede_masa_cuma_overwrite_variable_aja_pake_pwntools}
+provide: dist

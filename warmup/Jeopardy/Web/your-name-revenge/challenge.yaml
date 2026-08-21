@@ -1,0 +1,19 @@
+name: Your Name Revenge
+author: Dimas
+description: '**Author**: `Dimas`
+
+
+  What is your name :) ?
+
+
+  ---
+
+  Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Warmup/Web/Your-Name-Revenge).'
+type: StaticAttachment
+category: Web
+minScoreRate: 0.1
+difficulty: 5
+disableBloodBonus: false
+flags:
+- TCF2023{1642071c-ebb8-4b3f-91fa-56abf92cf64c}
+provide: dist

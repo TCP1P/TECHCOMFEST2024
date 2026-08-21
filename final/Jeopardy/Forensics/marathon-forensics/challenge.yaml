@@ -1,0 +1,16 @@
+name: Marathon Forensics
+author: s3buahapel
+description: 'Archived challenge from TECHCOMFEST CTF 2024.
+
+
+  ---
+
+  Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Final/Forensics/marathon-forensics).'
+type: StaticAttachment
+category: Forensics
+minScoreRate: 0.25
+difficulty: 5
+disableBloodBonus: false
+flags:
+- TCF2024{9cef58a96b1350867f17bfcc9e984bae2bf7590f}
+provide: dist

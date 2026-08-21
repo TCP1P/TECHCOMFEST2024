@@ -1,0 +1,19 @@
+name: yo nda tau
+author: Dimas
+description: '**Author**: `Dimas`
+
+
+  Yo nda tau...
+
+
+  ---
+
+  Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Quals/Web/yo-nda-tau).'
+type: StaticAttachment
+category: Web
+minScoreRate: 0.2
+difficulty: 5
+disableBloodBonus: false
+flags:
+- TCF2024{gadget_object_from_different_context_is_realy_usefull:)}
+provide: dist

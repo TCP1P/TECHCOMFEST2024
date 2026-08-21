@@ -1,0 +1,11 @@
+name: kuli-ah forensik
+author: fire
+description: "**Author**: `fire`\n\nI just created secret message in image file but i want to make it secure \nso i transform it to audio file. But i think it's not secure enough so i \narchive it with password. I encrypt it with very strong password. I'am \nsure no one can crack it because my password is random 15 digit number in \nbase 3. It's very very secure right? ... right??. Then i wrap my file \nwithin an image so no one can realize.\n\nflag = TCF2024{`<my secret message>`}\n\n---\nHistorical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Quals/Forensic/kuli-ah%20forensik)."
+type: StaticAttachment
+category: Forensics
+minScoreRate: 0.2
+difficulty: 5
+disableBloodBonus: false
+flags:
+- TCF2024{w0w_congrats_you_win}
+provide: dist

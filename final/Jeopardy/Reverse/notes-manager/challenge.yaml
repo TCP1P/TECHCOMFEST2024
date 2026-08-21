@@ -1,0 +1,90 @@
+name: Notes Manager
+author: aimardcr
+description: '**Author**: `aimardcr`
+
+
+  ------
+
+
+  TCP1P is offering a complimentary exam and certification to evaluate your expertise in mobile application security. Your task is to analyze the Notes Manager application within a provided pre-configured Android image. The exam consists of three main questions:
+
+  ```
+
+  1. What is the login credential for the Notes Manager application in the pre-configured device?
+
+  2. What is the content of Secret Note #1?
+
+  3. What is the content of Secret Note #2?
+
+  ```
+
+  Additionally, you''ll receive the Notes Manager app for testing purposes in your personal Android setup.
+
+
+  Please note that the provided pre-configured Android image lacks root access. This is a deliberate choice to mimic real-world conditions. Rooting the provided image is not permitted, as the necessary exploits for this exam don''t require root access. However, you may perform dynamic analysis in a rooted environment on your device.
+
+
+  Best of luck with your exam!
+
+
+  Regards,
+
+  Aimar Sechan Adhitya, Head of TCP1P Exam & Certification Program.
+
+
+  ------
+
+
+  You are expected to have Android Studio installed in your environment in order to run the pre-configured Android image.
+
+  If you haven''t downloaded the image, download it from [here](https://drive.google.com/drive/folders/1wQaC-dC0pdpUs00LtktkCVocZOqKYCXi?usp=sharing).
+
+
+  Installation:
+
+  - Windows:
+
+  1. Extract the contents of Notes_Manager.zip to `C:\Users\<USER>\.android\avd`
+
+  2. Run the android image using built-in emulator from Android Studio
+
+  - Linux and MacOS:
+
+  1. Extract the contents of Notes_Manager.zip to `~/.android/avd`
+
+  2. Run the android image using built-in emulator from Android Studio
+
+
+  The structure should looks like this:
+
+  ```
+
+  <HOME_DIRECTORY>
+
+  ├── .android
+
+  │   └── avd
+
+  │       ├── Notes_Manager.avd
+
+  │       └── Notes_Manager.ini
+
+  ```
+
+  Device Password: `fuu-kun`
+
+
+  Once you''ve gathered all the answers, get your flag here: `nc 178.128.113.198 31337`
+
+
+  ---
+
+  Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Final/Reverse%20Engineering/Notes%20Manager).'
+type: StaticAttachment
+category: Reverse
+minScoreRate: 0.2
+difficulty: 5
+disableBloodBonus: false
+flags:
+- TCF2024{C0ngr4tul4ti0n_F0r_P4ss1ng_Y0ur_CXMAP_Ex4m_DM_M3_F0r_Y0uR_C3rt1fic4ti0n}
+provide: dist

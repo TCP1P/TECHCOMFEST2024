@@ -1,0 +1,11 @@
+name: secret mission
+author: fire & rui
+description: "**Author**: `fire & rui`\n\n![secret mission](https://i.pinimg.com/564x/a0/f3/7b/a0f37b8d85ce0e29284c4b8e211b8c4b.jpg)\n\nI found this hidden challenge in techcompfest website. But this challenge \nis not listed in the challenge list. And there is an limited time to download \nthe file. So I download it immediately while capturing the traffic using \nwireshark so i can review it later. Please i need you to help me to solve this \nchallenge. I'm not good at **pwning** but I can fix the file given to get that \nbinary. Here is the pcap file. I think the website still up but we can't \ndownload it anymore, but you can find it in my captured traffic. I hope you \ncan help me to solve this challenge. Thank you.\n\n---\nHistorical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Quals/Forensic/secret%20mission)."
+type: StaticAttachment
+category: Forensics
+minScoreRate: 0.2
+difficulty: 5
+disableBloodBonus: false
+flags:
+- TCF2024{foren_pwn?_pengen_turu_aja_lah_capek_challnya_gajelas}
+provide: dist

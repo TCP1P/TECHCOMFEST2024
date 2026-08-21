@@ -1,0 +1,339 @@
+{
+  "sourceRepository": "TCP1P/TECHCOMFEST2024",
+  "targetRepository": "TCP1P/TECHCOMFEST2024",
+  "private": false,
+  "events": [
+    "TECHCOMFEST CTF 2024 — Warm-up",
+    "TECHCOMFEST CTF 2024 — Qualifiers",
+    "TECHCOMFEST CTF 2024 — Finals"
+  ],
+  "challenges": [
+    {
+      "name": "Auth as a Service Again?",
+      "category": "Crypto",
+      "source": "Final/Cryptography/Auth as a Service Again?/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Final/Cryptography/Auth%20as%20a%20Service%20Again%3F",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment"
+      ],
+      "manifest": "final/Jeopardy/Crypto/auth-as-a-service-again/challenge.yaml"
+    },
+    {
+      "name": "Marathon Forensics",
+      "category": "Forensics",
+      "source": "Final/Forensics/marathon-forensics/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Final/Forensics/marathon-forensics",
+      "type": "StaticAttachment",
+      "warnings": [
+        "source YAML needed fallback parsing: while parsing a block mapping",
+        "legacy type 'dynamic' converted to StaticAttachment",
+        "no player attachment files were present"
+      ],
+      "manifest": "final/Jeopardy/Forensics/marathon-forensics/challenge.yaml"
+    },
+    {
+      "name": "minivm",
+      "category": "Pwn",
+      "source": "Final/Pwn/minivm/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Final/Pwn/minivm",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment",
+        "no player attachment files were present"
+      ],
+      "manifest": "final/Jeopardy/Pwn/minivm/challenge.yaml"
+    },
+    {
+      "name": "Notes Manager",
+      "category": "Reverse",
+      "source": "Final/Reverse Engineering/Notes Manager/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Final/Reverse%20Engineering/Notes%20Manager",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment"
+      ],
+      "manifest": "final/Jeopardy/Reverse/notes-manager/challenge.yaml"
+    },
+    {
+      "name": "Tabungan",
+      "category": "Blockchain",
+      "source": "Quals/Blockchain/Tabungan/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Quals/Blockchain/Tabungan",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment"
+      ],
+      "manifest": "quals/Jeopardy/Blockchain/tabungan/challenge.yaml"
+    },
+    {
+      "name": "Auth as a Service",
+      "category": "Crypto",
+      "source": "Quals/Cryptography/Auth as a Service/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Quals/Cryptography/Auth%20as%20a%20Service",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment"
+      ],
+      "manifest": "quals/Jeopardy/Crypto/auth-as-a-service/challenge.yaml"
+    },
+    {
+      "name": "crackable",
+      "category": "Crypto",
+      "source": "Quals/Cryptography/crackable/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Quals/Cryptography/crackable",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment"
+      ],
+      "manifest": "quals/Jeopardy/Crypto/crackable/challenge.yaml"
+    },
+    {
+      "name": "solvable",
+      "category": "Crypto",
+      "source": "Quals/Cryptography/solvable/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Quals/Cryptography/solvable",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment"
+      ],
+      "manifest": "quals/Jeopardy/Crypto/solvable/challenge.yaml"
+    },
+    {
+      "name": "kuli-ah forensik",
+      "category": "Forensics",
+      "source": "Quals/Forensic/kuli-ah forensik/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Quals/Forensic/kuli-ah%20forensik",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment"
+      ],
+      "manifest": "quals/Jeopardy/Forensics/kuli-ah-forensik/challenge.yaml"
+    },
+    {
+      "name": "pemanasan",
+      "category": "Forensics",
+      "source": "Quals/Forensic/pemanasan/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Quals/Forensic/pemanasan",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment"
+      ],
+      "manifest": "quals/Jeopardy/Forensics/pemanasan/challenge.yaml"
+    },
+    {
+      "name": "secret mission",
+      "category": "Forensics",
+      "source": "Quals/Forensic/secret mission/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Quals/Forensic/secret%20mission",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment"
+      ],
+      "manifest": "quals/Jeopardy/Forensics/secret-mission/challenge.yaml"
+    },
+    {
+      "name": "Auth as a Kernel",
+      "category": "Pwn",
+      "source": "Quals/PWN/Auth as a Kernel/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Quals/PWN/Auth%20as%20a%20Kernel",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment",
+        "no player attachment files were present"
+      ],
+      "manifest": "quals/Jeopardy/Pwn/auth-as-a-kernel/challenge.yaml"
+    },
+    {
+      "name": "Auth as a User",
+      "category": "Pwn",
+      "source": "Quals/PWN/Auth as a User/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Quals/PWN/Auth%20as%20a%20User",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment",
+        "no player attachment files were present"
+      ],
+      "manifest": "quals/Jeopardy/Pwn/auth-as-a-user/challenge.yaml"
+    },
+    {
+      "name": "pwnable",
+      "category": "Pwn",
+      "source": "Quals/PWN/pwnable/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Quals/PWN/pwnable",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment"
+      ],
+      "manifest": "quals/Jeopardy/Pwn/pwnable/challenge.yaml"
+    },
+    {
+      "name": "Hidden in the Abyss",
+      "category": "Reverse",
+      "source": "Quals/Reverse Engineering/Hidden in the Abyss/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Quals/Reverse%20Engineering/Hidden%20in%20the%20Abyss",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment"
+      ],
+      "manifest": "quals/Jeopardy/Reverse/hidden-in-the-abyss/challenge.yaml"
+    },
+    {
+      "name": "Key Checker",
+      "category": "Reverse",
+      "source": "Quals/Reverse Engineering/Key Checker/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Quals/Reverse%20Engineering/Key%20Checker",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment"
+      ],
+      "manifest": "quals/Jeopardy/Reverse/key-checker/challenge.yaml"
+    },
+    {
+      "name": "Serialization",
+      "category": "Reverse",
+      "source": "Quals/Reverse Engineering/Serialization/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Quals/Reverse%20Engineering/Serialization",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment"
+      ],
+      "manifest": "quals/Jeopardy/Reverse/serialization/challenge.yaml"
+    },
+    {
+      "name": "Kuta",
+      "category": "Web",
+      "source": "Quals/Web/kuta/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Quals/Web/kuta",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment"
+      ],
+      "manifest": "quals/Jeopardy/Web/kuta/challenge.yaml"
+    },
+    {
+      "name": "lul",
+      "category": "Web",
+      "source": "Quals/Web/lul/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Quals/Web/lul",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment"
+      ],
+      "manifest": "quals/Jeopardy/Web/lul/challenge.yaml"
+    },
+    {
+      "name": "pecel",
+      "category": "Web",
+      "source": "Quals/Web/pecel/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Quals/Web/pecel",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment"
+      ],
+      "manifest": "quals/Jeopardy/Web/pecel/challenge.yaml"
+    },
+    {
+      "name": "pressword",
+      "category": "Web",
+      "source": "Quals/Web/pressword/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Quals/Web/pressword",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment"
+      ],
+      "manifest": "quals/Jeopardy/Web/pressword/challenge.yaml"
+    },
+    {
+      "name": "yo nda tau",
+      "category": "Web",
+      "source": "Quals/Web/yo-nda-tau/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Quals/Web/yo-nda-tau",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment"
+      ],
+      "manifest": "quals/Jeopardy/Web/yo-nda-tau/challenge.yaml"
+    },
+    {
+      "name": "bukan-kiinzu",
+      "category": "Blockchain",
+      "source": "Warmup/Blockchain/bukan-kiinzu/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Warmup/Blockchain/bukan-kiinzu",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment"
+      ],
+      "manifest": "warmup/Jeopardy/Blockchain/bukan-kiinzu/challenge.yaml"
+    },
+    {
+      "name": "bukan-rsa",
+      "category": "Crypto",
+      "source": "Warmup/Cryptography/bukan-rsa/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Warmup/Cryptography/bukan-rsa",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment",
+        "no player attachment files were present"
+      ],
+      "manifest": "warmup/Jeopardy/Crypto/bukan-rsa/challenge.yaml"
+    },
+    {
+      "name": "bukan-foren",
+      "category": "Forensics",
+      "source": "Warmup/Forensic/bukan-foren/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Warmup/Forensic/bukan-foren",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment"
+      ],
+      "manifest": "warmup/Jeopardy/Forensics/bukan-foren/challenge.yaml"
+    },
+    {
+      "name": "bukan-kernel",
+      "category": "Pwn",
+      "source": "Warmup/PWN/bukan-kernel/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Warmup/PWN/bukan-kernel",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment",
+        "no player attachment files were present"
+      ],
+      "manifest": "warmup/Jeopardy/Pwn/bukan-kernel/challenge.yaml"
+    },
+    {
+      "name": "bukan-android",
+      "category": "Reverse",
+      "source": "Warmup/Reverse Engineering/bukan-android/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Warmup/Reverse%20Engineering/bukan-android",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment",
+        "attachment omitted to stay below the repository size limit"
+      ],
+      "manifest": "warmup/Jeopardy/Reverse/bukan-android/challenge.yaml"
+    },
+    {
+      "name": "Your Name",
+      "category": "Web",
+      "source": "Warmup/Web/Your-Name/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Warmup/Web/Your-Name",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment"
+      ],
+      "manifest": "warmup/Jeopardy/Web/your-name/challenge.yaml"
+    },
+    {
+      "name": "Your Name Revenge",
+      "category": "Web",
+      "source": "Warmup/Web/Your-Name-Revenge/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Warmup/Web/Your-Name-Revenge",
+      "type": "StaticAttachment",
+      "warnings": [
+        "legacy type 'dynamic' converted to StaticAttachment"
+      ],
+      "manifest": "warmup/Jeopardy/Web/your-name-revenge/challenge.yaml"
+    }
+  ]
+}

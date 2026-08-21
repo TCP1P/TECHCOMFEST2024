@@ -1,0 +1,19 @@
+name: Your Name
+author: Dimas
+description: '**Author**: `Dimas`
+
+
+  What is your name?
+
+
+  ---
+
+  Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Warmup/Web/Your-Name).'
+type: StaticAttachment
+category: Web
+minScoreRate: 0.1
+difficulty: 5
+disableBloodBonus: false
+flags:
+- TCF2023{252d8e3b-0367-4005-a4b7-ea40c410d566}
+provide: dist

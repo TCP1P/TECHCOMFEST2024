@@ -1,0 +1,19 @@
+name: bukan-foren
+author: fire
+description: '**Author**: `fire`
+
+
+  Lupa password :( keknya passwordku kemaren angka 6 digit deh tapi lupa
+
+
+  ---
+
+  Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Warmup/Forensic/bukan-foren).'
+type: StaticAttachment
+category: Forensics
+minScoreRate: 0.1
+difficulty: 5
+disableBloodBonus: false
+flags:
+- emuach{285f645256e86c2ac84075dd9de5393378dc8dd6}
+provide: dist

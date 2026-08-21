@@ -1,0 +1,28 @@
+name: Auth as a User
+author: rui
+description: '**Author**: `rui`
+
+
+  - Auth as a Service : 1st stage
+
+  - Auth as a User    : 2nd stage [HERE]
+
+  - Auth as a Kernel  : 3rd stage
+
+
+  Download attachment in **Auth as a Service**.
+
+  Please see README.md in attachment for more details.
+
+
+  ---
+
+  Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Quals/PWN/Auth%20as%20a%20User).'
+type: StaticAttachment
+category: Pwn
+minScoreRate: 0.2
+difficulty: 5
+disableBloodBonus: false
+flags:
+- TCF2024{how_did_u_find_all_those_gadget?_aight_better_be_calling_u_rop_master_for_now}
+provide: dist

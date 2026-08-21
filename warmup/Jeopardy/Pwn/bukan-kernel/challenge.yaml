@@ -1,0 +1,19 @@
+name: bukan-kernel
+author: fire
+description: '**Author**: `fire`
+
+
+  Bukan soal kernel karena jalan di python2 :)
+
+
+  ---
+
+  Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Warmup/PWN/bukan-kernel).'
+type: StaticAttachment
+category: Pwn
+minScoreRate: 0.1
+difficulty: 5
+disableBloodBonus: false
+flags:
+- TCF2024{68dd3929e597d1266af28faca8f429b1dc58f579}
+provide: dist

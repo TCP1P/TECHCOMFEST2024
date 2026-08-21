@@ -1,0 +1,19 @@
+name: solvable
+author: rui
+description: '**Author**: `rui`
+
+
+  just want to say it''s **solvable**
+
+
+  ---
+
+  Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Quals/Cryptography/solvable).'
+type: StaticAttachment
+category: Crypto
+minScoreRate: 0.2
+difficulty: 5
+disableBloodBonus: false
+flags:
+- TCF2024{Indeed_its_solvable__just_coppersmith_with_DLP_inside}
+provide: dist

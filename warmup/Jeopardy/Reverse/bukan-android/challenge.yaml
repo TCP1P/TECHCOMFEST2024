@@ -1,0 +1,19 @@
+name: bukan-android
+author: fire
+description: '**Author**: `fire`
+
+
+  Bukan soal android :)
+
+
+  ---
+
+  Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Warmup/Reverse%20Engineering/bukan-android).'
+type: StaticAttachment
+category: Reverse
+minScoreRate: 0.1
+difficulty: 5
+disableBloodBonus: false
+flags:
+- TCF2023{dc15966a553d5a6c57dce2f0ddcd99bfaf6a7806}
+provide: dist

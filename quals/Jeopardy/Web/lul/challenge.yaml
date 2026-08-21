@@ -1,0 +1,19 @@
+name: lul
+author: Dimas
+description: '**Author**: Dimas
+
+
+  is it exploitable?
+
+
+  ---
+
+  Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Quals/Web/lul).'
+type: StaticAttachment
+category: Web
+minScoreRate: 0.1
+difficulty: 5
+disableBloodBonus: false
+flags:
+- TCF2024{xss_on_the_path_is_really_out_of_this_world!}
+provide: dist
