@@ -1,0 +1,22 @@
+name: Auth as a Service Again?
+author: rui
+description: '**Author**: `rui`
+
+
+  Seems my previous Auth as a Service was broken, so I decided to rewrite in python for better security (not performance, tho).
+
+
+  ---
+
+  Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Final/Cryptography/Auth%20as%20a%20Service%20Again%3F).'
+type: DynamicContainer
+category: Crypto
+minScoreRate: 0.2
+difficulty: 5
+disableBloodBonus: false
+flagTemplate: TCF2024{auth_as_a_service_again____________[TEAM_HASH]}
+container:
+  memoryLimit: 128
+  cpuCount: 1
+  exposePort: 21337
+  enableTrafficCapture: false

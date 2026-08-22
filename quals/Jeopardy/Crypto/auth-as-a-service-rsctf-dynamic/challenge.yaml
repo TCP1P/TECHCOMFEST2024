@@ -1,0 +1,29 @@
+name: Auth as a Service
+author: rui
+description: '**Author**: `rui`
+
+
+  - Auth as a Service : 1st stage [HERE]
+
+  - Auth as a User    : 2nd stage
+
+  - Auth as a Kernel  : 3rd stage
+
+
+  Please see README.md in attachment for more details.
+
+
+  ---
+
+  Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Quals/Cryptography/Auth%20as%20a%20Service).'
+type: DynamicContainer
+category: Crypto
+minScoreRate: 0.2
+difficulty: 5
+disableBloodBonus: false
+flagTemplate: TCF2024{auth_as_a_service_[TEAM_HASH]}
+container:
+  memoryLimit: 128
+  cpuCount: 1
+  exposePort: 13337
+  enableTrafficCapture: false

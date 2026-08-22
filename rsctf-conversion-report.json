@@ -13,11 +13,15 @@
       "category": "Crypto",
       "source": "Final/Cryptography/Auth as a Service Again?/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Final/Cryptography/Auth%20as%20a%20Service%20Again%3F",
-      "type": "StaticAttachment",
+      "type": "DynamicContainer",
+      "runtimeReason": null,
       "warnings": [
-        "legacy type 'dynamic' converted to StaticAttachment"
+        "portable single-service Docker runtime promoted from 'dynamic' to DynamicContainer",
+        "generated per-team flag template 'TCF2024{auth_as_a_service_again____________[TEAM_HASH]}'",
+        "dynamic flag delivery proven through runtime environment variable",
+        "dynamic runtime compatibility rewrote 0 archived flag occurrence(s)"
       ],
-      "manifest": "final/Jeopardy/Crypto/auth-as-a-service-again/challenge.yaml"
+      "manifest": "final/Jeopardy/Crypto/auth-as-a-service-again-rsctf-dynamic/challenge.yaml"
     },
     {
       "name": "Marathon Forensics",
@@ -25,9 +29,10 @@
       "source": "Final/Forensics/marathon-forensics/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Final/Forensics/marathon-forensics",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [
         "source YAML needed fallback parsing: while parsing a block mapping",
-        "legacy type 'dynamic' converted to StaticAttachment",
+        "legacy type 'dynamic' imported as StaticAttachment",
         "no player attachment files were present"
       ],
       "manifest": "final/Jeopardy/Forensics/marathon-forensics/challenge.yaml"
@@ -37,12 +42,15 @@
       "category": "Pwn",
       "source": "Final/Pwn/minivm/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Final/Pwn/minivm",
-      "type": "StaticAttachment",
+      "type": "DynamicContainer",
+      "runtimeReason": null,
       "warnings": [
-        "legacy type 'dynamic' converted to StaticAttachment",
-        "no player attachment files were present"
+        "portable single-service Docker runtime promoted from 'dynamic' to DynamicContainer",
+        "generated per-team flag template 'TCF2024{minivm_________________[TEAM_HASH]}'",
+        "dynamic flag delivery proven through archived full flag literal",
+        "dynamic runtime compatibility rewrote 1 archived flag occurrence(s)"
       ],
-      "manifest": "final/Jeopardy/Pwn/minivm/challenge.yaml"
+      "manifest": "final/Jeopardy/Pwn/minivm-rsctf-dynamic/challenge.yaml"
     },
     {
       "name": "Notes Manager",
@@ -50,8 +58,9 @@
       "source": "Final/Reverse Engineering/Notes Manager/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Final/Reverse%20Engineering/Notes%20Manager",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [
-        "legacy type 'dynamic' converted to StaticAttachment"
+        "legacy type 'dynamic' imported as StaticAttachment"
       ],
       "manifest": "final/Jeopardy/Reverse/notes-manager/challenge.yaml"
     },
@@ -60,33 +69,45 @@
       "category": "Blockchain",
       "source": "Quals/Blockchain/Tabungan/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Quals/Blockchain/Tabungan",
-      "type": "StaticAttachment",
+      "type": "DynamicContainer",
+      "runtimeReason": null,
       "warnings": [
-        "legacy type 'dynamic' converted to StaticAttachment"
+        "portable single-service Docker runtime promoted from 'dynamic' to DynamicContainer",
+        "generated per-team flag template 'TCF2024{tabungan___________________________[TEAM_HASH]}'",
+        "dynamic flag delivery proven through launcher FLAG environment contract",
+        "dynamic runtime compatibility rewrote 0 archived flag occurrence(s)"
       ],
-      "manifest": "quals/Jeopardy/Blockchain/tabungan/challenge.yaml"
+      "manifest": "quals/Jeopardy/Blockchain/tabungan-rsctf-dynamic/challenge.yaml"
     },
     {
       "name": "Auth as a Service",
       "category": "Crypto",
       "source": "Quals/Cryptography/Auth as a Service/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Quals/Cryptography/Auth%20as%20a%20Service",
-      "type": "StaticAttachment",
+      "type": "DynamicContainer",
+      "runtimeReason": null,
       "warnings": [
-        "legacy type 'dynamic' converted to StaticAttachment"
+        "portable single-service Docker runtime promoted from 'dynamic' to DynamicContainer",
+        "generated per-team flag template 'TCF2024{auth_as_a_service_[TEAM_HASH]}'",
+        "dynamic flag delivery uses the gzip cpio flag image adapter",
+        "dynamic runtime compatibility rewrote 0 archived flag occurrence(s)"
       ],
-      "manifest": "quals/Jeopardy/Crypto/auth-as-a-service/challenge.yaml"
+      "manifest": "quals/Jeopardy/Crypto/auth-as-a-service-rsctf-dynamic/challenge.yaml"
     },
     {
       "name": "crackable",
       "category": "Crypto",
       "source": "Quals/Cryptography/crackable/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Quals/Cryptography/crackable",
-      "type": "StaticAttachment",
+      "type": "DynamicContainer",
+      "runtimeReason": null,
       "warnings": [
-        "legacy type 'dynamic' converted to StaticAttachment"
+        "portable single-service Docker runtime promoted from 'dynamic' to DynamicContainer",
+        "generated per-team flag template 'TCF2024{crackable___________________________________________________________________________[TEAM_HASH]}'",
+        "dynamic flag delivery proven through runtime environment variable",
+        "dynamic runtime compatibility rewrote 0 archived flag occurrence(s)"
       ],
-      "manifest": "quals/Jeopardy/Crypto/crackable/challenge.yaml"
+      "manifest": "quals/Jeopardy/Crypto/crackable-rsctf-dynamic/challenge.yaml"
     },
     {
       "name": "solvable",
@@ -94,8 +115,9 @@
       "source": "Quals/Cryptography/solvable/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Quals/Cryptography/solvable",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [
-        "legacy type 'dynamic' converted to StaticAttachment"
+        "legacy type 'dynamic' imported as StaticAttachment"
       ],
       "manifest": "quals/Jeopardy/Crypto/solvable/challenge.yaml"
     },
@@ -105,8 +127,9 @@
       "source": "Quals/Forensic/kuli-ah forensik/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Quals/Forensic/kuli-ah%20forensik",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [
-        "legacy type 'dynamic' converted to StaticAttachment"
+        "legacy type 'dynamic' imported as StaticAttachment"
       ],
       "manifest": "quals/Jeopardy/Forensics/kuli-ah-forensik/challenge.yaml"
     },
@@ -116,8 +139,9 @@
       "source": "Quals/Forensic/pemanasan/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Quals/Forensic/pemanasan",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [
-        "legacy type 'dynamic' converted to StaticAttachment"
+        "legacy type 'dynamic' imported as StaticAttachment"
       ],
       "manifest": "quals/Jeopardy/Forensics/pemanasan/challenge.yaml"
     },
@@ -127,8 +151,9 @@
       "source": "Quals/Forensic/secret mission/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Quals/Forensic/secret%20mission",
       "type": "StaticAttachment",
+      "runtimeReason": "Compose declares 2 services; the production Docker backend supports one service per DynamicContainer",
       "warnings": [
-        "legacy type 'dynamic' converted to StaticAttachment"
+        "legacy type 'dynamic' imported as StaticAttachment"
       ],
       "manifest": "quals/Jeopardy/Forensics/secret-mission/challenge.yaml"
     },
@@ -138,8 +163,9 @@
       "source": "Quals/PWN/Auth as a Kernel/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Quals/PWN/Auth%20as%20a%20Kernel",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [
-        "legacy type 'dynamic' converted to StaticAttachment",
+        "legacy type 'dynamic' imported as StaticAttachment",
         "no player attachment files were present"
       ],
       "manifest": "quals/Jeopardy/Pwn/auth-as-a-kernel/challenge.yaml"
@@ -150,8 +176,9 @@
       "source": "Quals/PWN/Auth as a User/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Quals/PWN/Auth%20as%20a%20User",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [
-        "legacy type 'dynamic' converted to StaticAttachment",
+        "legacy type 'dynamic' imported as StaticAttachment",
         "no player attachment files were present"
       ],
       "manifest": "quals/Jeopardy/Pwn/auth-as-a-user/challenge.yaml"
@@ -161,11 +188,15 @@
       "category": "Pwn",
       "source": "Quals/PWN/pwnable/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Quals/PWN/pwnable",
-      "type": "StaticAttachment",
+      "type": "DynamicContainer",
+      "runtimeReason": null,
       "warnings": [
-        "legacy type 'dynamic' converted to StaticAttachment"
+        "portable single-service Docker runtime promoted from 'dynamic' to DynamicContainer",
+        "generated per-team flag template 'TCF2024{pwnable________________________________[TEAM_HASH]}'",
+        "dynamic flag delivery proven through archived full flag literal",
+        "dynamic runtime compatibility rewrote 1 archived flag occurrence(s)"
       ],
-      "manifest": "quals/Jeopardy/Pwn/pwnable/challenge.yaml"
+      "manifest": "quals/Jeopardy/Pwn/pwnable-rsctf-dynamic/challenge.yaml"
     },
     {
       "name": "Hidden in the Abyss",
@@ -173,8 +204,9 @@
       "source": "Quals/Reverse Engineering/Hidden in the Abyss/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Quals/Reverse%20Engineering/Hidden%20in%20the%20Abyss",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [
-        "legacy type 'dynamic' converted to StaticAttachment"
+        "legacy type 'dynamic' imported as StaticAttachment"
       ],
       "manifest": "quals/Jeopardy/Reverse/hidden-in-the-abyss/challenge.yaml"
     },
@@ -184,8 +216,9 @@
       "source": "Quals/Reverse Engineering/Key Checker/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Quals/Reverse%20Engineering/Key%20Checker",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [
-        "legacy type 'dynamic' converted to StaticAttachment"
+        "legacy type 'dynamic' imported as StaticAttachment"
       ],
       "manifest": "quals/Jeopardy/Reverse/key-checker/challenge.yaml"
     },
@@ -195,8 +228,9 @@
       "source": "Quals/Reverse Engineering/Serialization/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Quals/Reverse%20Engineering/Serialization",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [
-        "legacy type 'dynamic' converted to StaticAttachment"
+        "legacy type 'dynamic' imported as StaticAttachment"
       ],
       "manifest": "quals/Jeopardy/Reverse/serialization/challenge.yaml"
     },
@@ -205,11 +239,15 @@
       "category": "Web",
       "source": "Quals/Web/kuta/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Quals/Web/kuta",
-      "type": "StaticAttachment",
+      "type": "DynamicContainer",
+      "runtimeReason": null,
       "warnings": [
-        "legacy type 'dynamic' converted to StaticAttachment"
+        "portable single-service Docker runtime promoted from 'dynamic' to DynamicContainer",
+        "generated per-team flag template 'TCF2024{kuta____________________[TEAM_HASH]}'",
+        "dynamic flag delivery proven through archived full flag literal",
+        "dynamic runtime compatibility rewrote 1 archived flag occurrence(s)"
       ],
-      "manifest": "quals/Jeopardy/Web/kuta/challenge.yaml"
+      "manifest": "quals/Jeopardy/Web/kuta-rsctf-dynamic/challenge.yaml"
     },
     {
       "name": "lul",
@@ -217,8 +255,9 @@
       "source": "Quals/Web/lul/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Quals/Web/lul",
       "type": "StaticAttachment",
+      "runtimeReason": "Compose declares 3 services; the production Docker backend supports one service per DynamicContainer",
       "warnings": [
-        "legacy type 'dynamic' converted to StaticAttachment"
+        "legacy type 'dynamic' imported as StaticAttachment"
       ],
       "manifest": "quals/Jeopardy/Web/lul/challenge.yaml"
     },
@@ -228,8 +267,9 @@
       "source": "Quals/Web/pecel/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Quals/Web/pecel",
       "type": "StaticAttachment",
+      "runtimeReason": "Compose declares 2 services; the production Docker backend supports one service per DynamicContainer",
       "warnings": [
-        "legacy type 'dynamic' converted to StaticAttachment"
+        "legacy type 'dynamic' imported as StaticAttachment"
       ],
       "manifest": "quals/Jeopardy/Web/pecel/challenge.yaml"
     },
@@ -239,8 +279,9 @@
       "source": "Quals/Web/pressword/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Quals/Web/pressword",
       "type": "StaticAttachment",
+      "runtimeReason": "Compose declares 2 services; the production Docker backend supports one service per DynamicContainer",
       "warnings": [
-        "legacy type 'dynamic' converted to StaticAttachment"
+        "legacy type 'dynamic' imported as StaticAttachment"
       ],
       "manifest": "quals/Jeopardy/Web/pressword/challenge.yaml"
     },
@@ -250,8 +291,9 @@
       "source": "Quals/Web/yo-nda-tau/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Quals/Web/yo-nda-tau",
       "type": "StaticAttachment",
+      "runtimeReason": "Compose declares 2 services; the production Docker backend supports one service per DynamicContainer",
       "warnings": [
-        "legacy type 'dynamic' converted to StaticAttachment"
+        "legacy type 'dynamic' imported as StaticAttachment"
       ],
       "manifest": "quals/Jeopardy/Web/yo-nda-tau/challenge.yaml"
     },
@@ -260,11 +302,15 @@
       "category": "Blockchain",
       "source": "Warmup/Blockchain/bukan-kiinzu/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Warmup/Blockchain/bukan-kiinzu",
-      "type": "StaticAttachment",
+      "type": "DynamicContainer",
+      "runtimeReason": null,
       "warnings": [
-        "legacy type 'dynamic' converted to StaticAttachment"
+        "portable single-service Docker runtime promoted from 'dynamic' to DynamicContainer",
+        "generated per-team flag template 'TCF2024{bukan_kiinzu________[TEAM_HASH]}'",
+        "dynamic flag delivery proven through launcher FLAG environment contract",
+        "dynamic runtime compatibility rewrote 0 archived flag occurrence(s)"
       ],
-      "manifest": "warmup/Jeopardy/Blockchain/bukan-kiinzu/challenge.yaml"
+      "manifest": "warmup/Jeopardy/Blockchain/bukan-kiinzu-rsctf-dynamic/challenge.yaml"
     },
     {
       "name": "bukan-rsa",
@@ -272,8 +318,9 @@
       "source": "Warmup/Cryptography/bukan-rsa/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Warmup/Cryptography/bukan-rsa",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [
-        "legacy type 'dynamic' converted to StaticAttachment",
+        "legacy type 'dynamic' imported as StaticAttachment",
         "no player attachment files were present"
       ],
       "manifest": "warmup/Jeopardy/Crypto/bukan-rsa/challenge.yaml"
@@ -284,8 +331,9 @@
       "source": "Warmup/Forensic/bukan-foren/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Warmup/Forensic/bukan-foren",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [
-        "legacy type 'dynamic' converted to StaticAttachment"
+        "legacy type 'dynamic' imported as StaticAttachment"
       ],
       "manifest": "warmup/Jeopardy/Forensics/bukan-foren/challenge.yaml"
     },
@@ -294,12 +342,15 @@
       "category": "Pwn",
       "source": "Warmup/PWN/bukan-kernel/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Warmup/PWN/bukan-kernel",
-      "type": "StaticAttachment",
+      "type": "DynamicContainer",
+      "runtimeReason": null,
       "warnings": [
-        "legacy type 'dynamic' converted to StaticAttachment",
-        "no player attachment files were present"
+        "portable single-service Docker runtime promoted from 'dynamic' to DynamicContainer",
+        "generated per-team flag template 'TCF2024{bukan_kernel____________[TEAM_HASH]}'",
+        "dynamic flag delivery proven through archived full flag literal",
+        "dynamic runtime compatibility rewrote 1 archived flag occurrence(s)"
       ],
-      "manifest": "warmup/Jeopardy/Pwn/bukan-kernel/challenge.yaml"
+      "manifest": "warmup/Jeopardy/Pwn/bukan-kernel-rsctf-dynamic/challenge.yaml"
     },
     {
       "name": "bukan-android",
@@ -307,8 +358,9 @@
       "source": "Warmup/Reverse Engineering/bukan-android/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Warmup/Reverse%20Engineering/bukan-android",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [
-        "legacy type 'dynamic' converted to StaticAttachment",
+        "legacy type 'dynamic' imported as StaticAttachment",
         "attachment omitted to stay below the repository size limit"
       ],
       "manifest": "warmup/Jeopardy/Reverse/bukan-android/challenge.yaml"
@@ -319,8 +371,9 @@
       "source": "Warmup/Web/Your-Name/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Warmup/Web/Your-Name",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [
-        "legacy type 'dynamic' converted to StaticAttachment"
+        "legacy type 'dynamic' imported as StaticAttachment"
       ],
       "manifest": "warmup/Jeopardy/Web/your-name/challenge.yaml"
     },
@@ -330,8 +383,9 @@
       "source": "Warmup/Web/Your-Name-Revenge/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Warmup/Web/Your-Name-Revenge",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [
-        "legacy type 'dynamic' converted to StaticAttachment"
+        "legacy type 'dynamic' imported as StaticAttachment"
       ],
       "manifest": "warmup/Jeopardy/Web/your-name-revenge/challenge.yaml"
     }

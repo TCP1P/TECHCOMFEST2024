@@ -1,0 +1,25 @@
+name: minivm
+author: rui
+description: '**Author**: `rui`
+
+
+  Author malas buat chall pwn, yaudah pake punya orang aja https://github.com/FastVM/minivm
+
+
+  Note: OS docker pake ubuntu:jammy (22.04)
+
+
+  ---
+
+  Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/TECHCOMFEST2024/tree/main/Final/Pwn/minivm).'
+type: DynamicContainer
+category: Pwn
+minScoreRate: 0.2
+difficulty: 5
+disableBloodBonus: false
+flagTemplate: TCF2024{minivm_________________[TEAM_HASH]}
+container:
+  memoryLimit: 128
+  cpuCount: 1
+  exposePort: 31337
+  enableTrafficCapture: false
