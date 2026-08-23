@@ -1,4 +1,4 @@
-FROM python:buster
+FROM python:3.11-bookworm
 
 EXPOSE 80
 
@@ -9,7 +9,7 @@ RUN apt-get -qqy update && \
 RUN pip install flask
 
 COPY ./flag.txt /flag.txt
-RUN mv /flag.txt `cat /proc/sys/kernel/random/uuid`.txt
+RUN mkdir -p /flag && mv /flag.txt /flag/`cat /proc/sys/kernel/random/uuid`.txt
 
 RUN useradd ctf --create-home
 ENV DISPLAY=:99
